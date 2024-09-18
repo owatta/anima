@@ -1,7 +1,7 @@
-// general
+/* general */
 #include <stdio.h>
 
-// reading the file
+/* reading the file */
 #include <unistd.h>
 #include <sys/mman.h>
 #include <sys/stat.h>
@@ -9,7 +9,7 @@
 
 int main(int argc, char *argv[]) {
 
-  // parsing the arguments
+  /* parsing the arguments */
   if (argc < 2) {
     printf("ERROR: No files provided.");
     return -1;
@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
 
   const char *filepath = argv[1];
 
-  // reading the file
+  /* reading the file */
   int err = 0;
   int fd = 0;
   void *ptr = NULL;
