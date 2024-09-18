@@ -5,5 +5,6 @@ pkgs.mkShell {
     clang
     gnumake
     gdb
+    wabt
   ];
 }
