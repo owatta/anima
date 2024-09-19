@@ -6,5 +6,6 @@ pkgs.mkShell {
     gnumake
     gdb
     wabt
+    wasmtime
   ];
 }
